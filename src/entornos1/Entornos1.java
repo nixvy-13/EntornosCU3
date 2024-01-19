@@ -27,7 +27,11 @@ public class Entornos2 {
 		double area=(2*pi*r*h)+(2*pi*(r*r));
 		return area;
 	}
-	
+	//Funcion calcular AREA RECTANGULO
+    public static double calcularAreaRectangulo(double l1, double l2) {
+        double area=(l1*l2);
+        return area;
+    }
 	public static void main(String[] args) {
 		//Introducir valores triangulo
 		System.out.println("Introduce base de un triangulo: ");
