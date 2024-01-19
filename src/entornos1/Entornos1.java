@@ -37,11 +37,6 @@ public class Entornos2 {
 		double volumen=l1*l1*l1;
 		return volumen;
 	}
-	//Funcion calcular AREA CUBO
-    public static double calcularAreaCubo(double l1) {
-        double area=6*calcularAreaRectangulo(l1,l1);
-        return area;
-	}
 	public static void main(String[] args) {
 		//Introducir valores triangulo
 		System.out.println("Introduce base de un triangulo: ");
