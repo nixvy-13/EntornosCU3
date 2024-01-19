@@ -11,6 +11,14 @@ public class Entornos1 {
 		double area = (b/2)*h;
 		return area;
 	}
+	public static double calcularPerCircunf(double r) {
+        double per = 2pir;
+        return per;
+    }
+	public static double calcularAreaCircunferencia(double r) {
+        double area =pi(r*r);
+        return area;
+    }
 	public static void main(String[] args) {
 		//Introducir valores triangulo
 		System.out.println("Introduce base de un triangulo");
