@@ -32,6 +32,11 @@ public class Entornos2 {
         double area=(l1*l2);
         return area;
     }
+	//Funcion calcular VOLUMEN CUBO
+	public static double calcularVolumenCubo(double l1) {
+		double volumen=l1*l1*l1;
+		return volumen;
+	}
 	public static void main(String[] args) {
 		//Introducir valores triangulo
 		System.out.println("Introduce base de un triangulo: ");
